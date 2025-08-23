@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>إيتاس للسياحة</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Scrollable Filter Navbar -->
+      <div class="navbar">
+        <h2>اختر رحلتك</h2>
+        <div class="filter-container">
+          <div class="filter-scrollable">
+            <div class="filter-box" data-filter="alomra">رحلات العمره</div>
+            <div class="filter-box" data-filter="day-use">رحلات اليوم الواحد</div>
+            <div class="filter-box" data-filter="alghardka">الغردقة</div>
+            <div class="filter-box" data-filter="sharm-elshiekh">شرم الشيخ</div>
+            <div class="filter-box" data-filter="marsa-matrouh">مرسي مطروح</div>
+            <div class="filter-box" data-filter="dahab">دهب</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Table -->
+      <div class="table-section">
+        <div class="table-header">
+          <h2>الجدول</h2>
+          <div class="results-count" id="resultsCount">32 Results</div>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>رحلة</th>
+                <th>الوجهة</th>
+                <th>الحالة</th>
+                <th>تاريخ الإضافة</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <!-- Data will be loaded from JSON -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
