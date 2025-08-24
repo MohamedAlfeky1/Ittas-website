@@ -72,6 +72,58 @@ const jsonData = {
         
     //   ]
     // },
+    "alin-alsokhna": {
+      "tableHeader": {
+        "hotel": "الفندق",
+        "From": "من",
+        "to": "إلي",
+        "price": "سعر الفرد في الغرفة الثنائي"
+      },
+      "items": [
+        {
+          "id": "SS001",
+          "item": "منتجع شرم الشيخ الملكي",
+          "category": "alin-alsokhna",
+          "status": "active",
+          "dateAdded": "2025-08-21"
+        },
+        {
+          "id": "SS009",
+          "item": "رحلة محمية رأس محمد",
+          "category": "alin-alsokhna",
+          "status": "active",
+          "dateAdded": "2025-08-20"
+        },
+        {
+          "id": "SS010",
+          "item": "فندق نعمة باي",
+          "category": "alin-alsokhna",
+          "status": "pending",
+          "dateAdded": "2025-08-19"
+        },
+        {
+          "id": "SS011",
+          "item": "رحلة جبل سيناء",
+          "category": "alin-alsokhna",
+          "status": "active",
+          "dateAdded": "2025-08-18"
+        },
+        {
+          "id": "SS012",
+          "item": "كاتدرائية سانت كاترين",
+          "category": "alin-alsokhna",
+          "status": "inactive",
+          "dateAdded": "2025-08-17"
+        },
+        {
+          "id": "SS013",
+          "item": "منتجع شارع الملاهي",
+          "category": "alin-alsokhna",
+          "status": "active",
+          "dateAdded": "2025-08-16"
+        }
+      ]
+    },
     "alghardka": {
       "tableHeader": {
         "hotel": "الفندق",
@@ -396,6 +448,7 @@ function loadDataFromJSON() {
   });
 
   allData.sort((a, b) => a.id.localeCompare(b.id));
+  
   renderTable(allData);
 }
 
