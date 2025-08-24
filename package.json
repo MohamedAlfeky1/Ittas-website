@@ -1,17 +1,14 @@
 {
-    "name": "travel-booking-site",
-    "version": "1.0.0",
-    "description": "Travel booking website with analytics",
-    "main": "index.html",
-    "scripts": {
-      "dev": "serve .",
-      "build": "echo 'Static site - no build needed'",
-      "start": "serve ."
-    },
-    "dependencies": {
-      "@vercel/analytics": "^1.0.0"
-    },
-    "devDependencies": {
-      "serve": "^14.0.0"
-    }
+  "name": "travel-booking-site",
+  "version": "1.0.0",
+  "description": "Travel booking website with analytics",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve .",
+    "build": "mkdir -p public && cp -r *.html *.css *.js public/",
+    "start": "serve public"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.0.0"
   }
+}
