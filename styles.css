@@ -154,7 +154,11 @@ td:first-child {
    position: sticky;
    right: 0;
    z-index: 10;
-
+   background: #E8F5E9;
+   border-radius: 8px;
+   padding: 8px 12px;
+   color: #2E7D32;
+   border: 1px solid #C8E6C9;
 }
 
 tbody tr:hover {
@@ -166,15 +170,6 @@ tbody tr:hover {
 
 
 
-.item-cell {
-    background: #E8F5E9;
-    border-radius: 8px;
-    padding: 8px 12px;
-    font-weight: 600;
-    color: #2E7D32;
-    display: inline-block;
-    border: 1px solid #C8E6C9;
-}
 
 .status-active {
     background: #D4EDDA;
