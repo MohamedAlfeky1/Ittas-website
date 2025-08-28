@@ -92,51 +92,164 @@ const jsonData = {
         "hotel": "الفندق",
         "From": "من",
         "to": "إلي",
-        "price": "سعر الفرد في الغرفة الثنائي"
+        "price": "سعر الغرفة الثنائي في الليلة",
+        "details": "ملاحظات"
+      },
+      "items": [
+        
+      ]
+    },
+    "alghardka": {
+      "tableHeader": {
+        "hotel": "الفندق",
+        "From": "من",
+        "to": "إلي",
+        "price": "سعر الغرفة الثنائي في الليلة",
+        "details": "ملاحظات"
       },
       "items": [
         {
-          "id": "AS001",
-          "hotel": "منتجع العين السخنة الملكي",
-          "From": "1-9-2025",
-          "to": "7-9-2025",
-          "price": "3500 جنية"
+          "id": "HG001",
+          "hotel": "هاواى براديس",
+          "offers": [
+            { "From": "1/8/2025", "to": "15/9/2025", "price": "6200 جنية" },
+            { "From": "16/9/2025", "to": "8/10/2025", "price": "5900 جنية" },
+            
+          ]
         },
         {
-          "id": "AS002",
-          "hotel": "فندق جاز ليتل فينيس",
-          "From": "5-9-2025",
-          "to": "10-9-2025",
-          "price": "4200 جنية"
+          "id": "HG002",
+          "hotel": "فوكس هاوس",
+          "offers": [
+            { "From": "12/8/2025", "to": "1/9/2025", "price": "3100 جنية" },
+            { "From": "1/9/2025", "to": "15/9/2025", "price": "3100 جنية" },
+            { "From": "16/9/2025", "to": "30/9/2025", "price": "2700 جنية" },
+            { "From": "1/10/2025", "to": "1/11/2025", "price": "2200 جنية" }
+          ],
+          "details": "H.B"
         },
         {
-          "id": "AS003",
-          "hotel": "منتجع ستيلا دي ماري",
-          "From": "8-9-2025",
-          "to": "12-9-2025",
-          "price": "3900 جنية"
+          "id": "HG002",
+          "hotel": "سيجال",
+          "offers": [
+            { "From": "7/1/2025", "to": "30/9/2025", "price": "8500 جنية" }
+          ]
         },
         {
-          "id": "AS004",
-          "hotel": "فندق بورتو السخنة",
-          "From": "10-9-2025",
-          "to": "15-9-2025",
-          "price": "3100 جنية"
+          "id": "HG002",
+          "hotel": "صنى دايز البلاسيو",
+          "offers": [
+            { "From": "16/7/2025", "to": "30-9-2025", "price": "6800 جنية" },
+            { "From": "1/10/2025", "to": "1/10/2025", "price": "6050 جنية" }
+          ]
         },
         {
-          "id": "AS005",
-          "hotel": "منتجع موفنبيك السخنة",
-          "From": "12-9-2025",
-          "to": "17-9-2025",
-          "price": "4500 جنية"
+          "id": "HG002",
+          "hotel": "A M C رويال",
+          "offers": [
+            { "From": "26/7/2025", "to": "20-9-2025", "price": "6750 جنية" }
+          ]
         },
         {
-          "id": "AS006",
-          "hotel": "فندق الماسة السخنة",
-          "From": "15-9-2025",
-          "to": "20-9-2025",
-          "price": "3700 جنية"
-        }
+          "id": "HG002",
+          "hotel": "الباشا ريزورت",
+          "offers": [
+            { "From": "16/7/2025", "to": "30/9/2025", "price": "5050 جنية" }
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "الاليزيه دريم بيتش",
+          "offers": [
+            { "From": "1/7/2025", "to": "15/9/2025", "price": "4000 جنية" }
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "لاروزا بوهو ( الممشي السياحي )",
+          "offers": [
+            { "From": "1/7/2025", "to": "30/9/2025", "price": "3550 جنية" }
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "ستيلا مكادى جاردن",
+          "offers": [
+            { "From": "25/7/2025", "to": "30/9/2025", "price": "7800 جنية" }
+          ],
+          "details": "ديلوكس جادن"
+        },
+        {
+          "id": "HG002",
+          "hotel": "ميراج باى اكوا بارك",
+          "offers": [
+            { "From": "15/7/2025", "to": "10/9/2025", "price": "5200 جنية" },
+            { "From": "11/9/2025", "to": "30/9/2025", "price": "5300 جنية" }
+          ],
+          "details": "طفلين ل 12 سنه مجانا"
+        },
+        {
+          "id": "HG002",
+          "hotel": "جرافيتي سهل حشيش",
+          "offers": [
+            { "From": "1/8/2025", "to": "30/9/2025", "price": "10700 جنية" }
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "بلاجيو لاكشرى ريزورت",
+          "offers": [
+            { "From": "1/9/2025", "to": "15/9/2025", "price": "9700 جنية" },
+            { "From": "16/9/2025", "to": "10/10/2025", "price": "8300 جنية" },
+            { "From": "11/10/2025", "to": "31/10/2025", "price": "7700 جنية" },
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "بانوراما بانجلوس الجونه",
+          "offers": [
+            { "From": "8/8/2025", "to": "17/9/2025", "price": "8700 جنية" },
+            { "From": "18/9/2025", "to": "30/9/2025", "price": "8700 جنية" }
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "مارلين ان ازور",
+          "offers": [
+            { "From": "1/9/2025", "to": "31-10-2025", "price": "5700 جنية" }
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "موفنبيك سوما باى (كلاسيك ماونتن)",
+          "offers": [
+            { "From": "15/7/2025", "to": "31/10/2025", "price": "8350 جنية" }
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "موفنبيك سوما باي ( ديلوكس ماونتن )",
+          "offers": [
+            { "From": "15/7/2025", "to": "31/10/2025", "price": "8700 جنية" }
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "سيرنتى فن سيتى مكادى",
+          "offers": [
+            { "From": "9/7/2025", "to": "30/9/2025", "price": "9800 جنية" },
+            { "From": "1/10/2025", "to": "31/10/2025", "price": "8750 جنية" }
+          ]
+        },
+        {
+          "id": "HG002",
+          "hotel": "صن رايز الورا",
+          "offers": [
+            { "From": "15/7/2025", "to": "19/9/2025", "price": "7000 جنية" },
+            { "From": "20/9/2025", "to": "4/10/2025", "price": "5600 جنية" }
+          ]
+        },
+        
       ]
     },
     "sharm-elshiekh": {
@@ -147,48 +260,7 @@ const jsonData = {
         "price": "سعر الفرد في الغرفة الثنائي"
       },
       "items": [
-        {
-          "id": "SS001",
-          "hotel": "منتجع شرم الشيخ الملكي",
-          "From": "1-10-2025",
-          "to": "6-10-2025",
-          "price": "5200 جنية"
-        },
-        {
-          "id": "SS002",
-          "hotel": "فندق جاز فنار",
-          "From": "3-10-2025",
-          "to": "8-10-2025",
-          "price": "4800 جنية"
-        },
-        {
-          "id": "SS003",
-          "hotel": "فندق نعمة باي",
-          "From": "5-10-2025",
-          "to": "10-10-2025",
-          "price": "4500 جنية"
-        },
-        {
-          "id": "SS004",
-          "hotel": "منتجع هيلتون شاركس باي",
-          "From": "7-10-2025",
-          "to": "12-10-2025",
-          "price": "4900 جنية"
-        },
-        {
-          "id": "SS005",
-          "hotel": "فندق كاتدرائية سانت كاترين",
-          "From": "9-10-2025",
-          "to": "14-10-2025",
-          "price": "4300 جنية"
-        },
-        {
-          "id": "SS006",
-          "hotel": "منتجع شارع الملاهي",
-          "From": "12-10-2025",
-          "to": "17-10-2025",
-          "price": "4600 جنية"
-        }
+       
       ]
     },
     "marsa-matrouh": {
@@ -199,41 +271,7 @@ const jsonData = {
         "price": "سعر الفرد في الغرفة الثنائي"
       },
       "items": [
-        {
-          "id": "MM001",
-          "hotel": "شاطئ كليوباترا",
-          "From": "20-7-2025",
-          "to": "25-7-2025",
-          "price": "3200 جنية"
-        },
-        {
-          "id": "MM002",
-          "hotel": "فندق الساحل الشمالي",
-          "From": "22-7-2025",
-          "to": "27-7-2025",
-          "price": "4000 جنية"
-        },
-        {
-          "id": "MM003",
-          "hotel": "رحلة العلمين",
-          "From": "24-7-2025",
-          "to": "29-7-2025",
-          "price": "3700 جنية"
-        },
-        {
-          "id": "MM004",
-          "hotel": "شاطئ أجيبة",
-          "From": "26-7-2025",
-          "to": "31-7-2025",
-          "price": "3300 جنية"
-        },
-        {
-          "id": "MM005",
-          "hotel": "منتجع مارينا",
-          "From": "28-7-2025",
-          "to": "2-8-2025",
-          "price": "4100 جنية"
-        }
+        
       ]
     },
     "dahab": {
@@ -244,41 +282,7 @@ const jsonData = {
         "price": "سعر الفرد في الغرفة الثنائي"
       },
       "items": [
-        {
-          "id": "DH001",
-          "hotel": "منتجع دهب الذهبي",
-          "From": "15-11-2025",
-          "to": "20-11-2025",
-          "price": "3400 جنية"
-        },
-        {
-          "id": "DH002",
-          "hotel": "فندق بلو هول",
-          "From": "17-11-2025",
-          "to": "22-11-2025",
-          "price": "3600 جنية"
-        },
-        {
-          "id": "DH003",
-          "hotel": "فندق كانيون",
-          "From": "19-11-2025",
-          "to": "24-11-2025",
-          "price": "3300 جنية"
-        },
-        {
-          "id": "DH004",
-          "hotel": "فندق الصحراء",
-          "From": "21-11-2025",
-          "to": "26-11-2025",
-          "price": "3500 جنية"
-        },
-        {
-          "id": "DH005",
-          "hotel": "فندق البحر الأزرق",
-          "From": "23-11-2025",
-          "to": "28-11-2025",
-          "price": "3800 جنية"
-        }
+        
       ]
     }
   },
@@ -326,7 +330,7 @@ function renderTable(data) {
   tableBody.innerHTML = '';
   tableHeader.innerHTML = '';
 
-  if (data.length === 0) {
+  if (!Array.isArray(data) || data.length === 0) {
     tableHeader.innerHTML = "<th>لا توجد بيانات</th>";
     const noDataRow = document.createElement('tr');
     noDataRow.innerHTML = '<td colspan="4">لا توجد بيانات تطابق الفلتر المحدد</td>';
@@ -335,35 +339,86 @@ function renderTable(data) {
     return;
   }
 
-  // Get table headers dynamically
+  // نجيب الهيدر من الكاتيجوري
   const firstItemCategory = data[0].categoryKey;
   const headers = Object.keys(jsonData.categories[firstItemCategory].tableHeader);
 
-  // Render headers
+  // رسم الهيدر
   tableHeader.innerHTML = headers
     .map(key => `<th>${jsonData.categories[firstItemCategory].tableHeader[key]}</th>`)
     .join('');
 
-  // Render rows
+  // 🎨 ألوان مختلفة لكل فندق (تتكرر تدريجياً)
+  const colors = ["#FFF", "#dcdcdc",];
+  let colorIndex = 0;
+
+  let displayedRows = 0;
+
   data.forEach(item => {
-    const row = document.createElement('tr');
-    row.dataset.category = item.categoryKey;
+    const hasOffers = Array.isArray(item.offers) && item.offers.length > 0;
 
-    row.innerHTML = headers
-      .map(key => `<td>${item[key] || ''}</td>`)
-      .join('');
+    // نحدد اللون للمجموعة كلها
+    const groupColor = colors[colorIndex % colors.length];
+    colorIndex++;
 
-    tableBody.appendChild(row);
+    if (hasOffers) {
+      item.offers.forEach((offer, index) => {
+        const tr = document.createElement('tr');
+        tr.style.backgroundColor = groupColor;
+        headers.forEach(h => {
+          if (h === 'hotel') {
+            if (index === 0) {
+              const td = document.createElement('td');
+              td.style.backgroundColor = groupColor;
+              td.classList.add("main-cell")
+              td.rowSpan = item.offers.length;
+              td.textContent = item.hotel ?? '';
+              td.style.fontWeight = 'bold';
+              td.style.textAlign = 'center';
+              td.style.verticalAlign = 'middle';
+              tr.appendChild(td);
+            }
+          } else {
+            const td = document.createElement('td');
+            td.textContent = (offer && offer[h]) || (item && item[h]) || '';
+            tr.appendChild(td);
+          }
+        });
+
+        tableBody.appendChild(tr);
+        displayedRows++;
+      });
+
+    } else {
+      const tr = document.createElement('tr');
+      tr.style.backgroundColor = groupColor; // 🟢 نفس اللون للمجموعة حتى لو مفيش offers
+
+      headers.forEach(h => {
+        const td = document.createElement('td');
+        td.textContent = item[h] || '';
+        tr.appendChild(td);
+      });
+
+      tableBody.appendChild(tr);
+      displayedRows++;
+    }
   });
 
-  updateResultsCount(data.length);
+  updateResultsCount(displayedRows);
 }
+
+
+
+
+
+
 
 function updateResultsCount(count) {
   if (resultsCount) {
     resultsCount.textContent = `${count} نتيجة`;
   }
 }
+
 
 // ===================== FILTER =====================
 function filterTable(filterType) {

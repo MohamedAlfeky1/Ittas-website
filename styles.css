@@ -150,26 +150,38 @@ td {
     color: #2d3748;
 }
 
-td:first-child {
-   position: sticky;
-   right: 0;
-   z-index: 10;
-   background: #E8F5E9;
-   border-radius: 8px;
-   padding: 8px 12px;
-   color: #2E7D32;
-   border: 1px solid #C8E6C9;
-}
+/* tr.hover {
+    background-color: #f5f5f5;
+    transition: background 0.2s;
+  } */
 
-tbody tr:hover {
+
+tr .main-cell {
+    position: sticky;
+    right: 0;
+    z-index: 50;
+    padding: 8px 12px;
+}
+/* tbody tr:hover {
     background: #e2f6e4;
     transform: translateY(-1px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
+} */
 
-
-
-
+/* tr.hover {
+    background-color: #f5f5f5;
+    transition: background 0.2s;
+  } */
+/* 
+  #tableBody tr.hover td {
+    background-color: red;
+    transition: background-color 0.15s ease-in-out;
+  } */
+  
+  /* (اختياري) تلوين خلية الفندق (rowspan) بلون أفتح شوية للتمييز */
+  /* #tableBody tr.hover td[rowspan] {
+    background-color: red;
+  } */
 
 .status-active {
     background: #D4EDDA;
